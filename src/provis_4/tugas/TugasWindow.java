@@ -421,6 +421,7 @@ public class TugasWindow extends javax.swing.JFrame {
     private void btnNumberClick(String number){
         if(lOp.getText().equals("")){
             lHasil.setText("0");
+            hasil = 0.0;
         }
         
         if("0".equals(lKetik.getText())){
